@@ -1,6 +1,6 @@
 var confi 	= require('./confi.json');
 var request 	= require('request');
-var SerialPort 	= require("serialport");
+var SerialPort 	= require('serialport');
 
 var port = new SerialPort("/dev/ttyUSB0", {
 	baudRate: 115200,
